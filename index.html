@@ -1,0 +1,549 @@
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Cookies - Kue Cookies Premium</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <span class="cookie-icon">🍪</span> Sweet Cookies
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Keunggulan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimoni</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 animate__animated animate__fadeInLeft">
+              <h1>
+                Nikmati <span class="highlight">Cookies Premium</span> Terbaik
+                di Kota! 🍪
+              </h1>
+              <p>
+                Dibuat dengan bahan pilihan berkualitas tinggi dan cinta, setiap
+                gigitan adalah pengalaman yang tak terlupakan
+              </p>
+              <button class="btn btn-custom">
+                <span style="margin-right: 10px">🛒</span> Pesan Sekarang
+              </button>
+            </div>
+            <div
+              class="col-lg-6 hero-images animate__animated animate__fadeInRight"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&h=600&fit=crop"
+                alt="Cookies"
+                class="hero-image-main"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=150&h=150&fit=crop"
+                alt="Cookie"
+                class="floating-cookie floating-cookie-1"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1590080876351-cd527b20e1c7?w=150&h=150&fit=crop"
+                alt="Cookie"
+                class="floating-cookie floating-cookie-2"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1548365328-8c6db3220e4c?w=150&h=150&fit=crop"
+                alt="Cookie"
+                class="floating-cookie floating-cookie-3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section id="products" class="product-section">
+        <div class="container">
+          <h2 class="section-title">Produk Terlaris Kami</h2>
+          <p class="section-subtitle">
+            Pilihan cookies premium yang dibuat dengan resep rahasia keluarga
+          </p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="card product-card">
+                <div class="product-image-wrapper">
+                  <span class="product-badge">Best Seller</span>
+                  <img
+                    src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&h=400&fit=crop"
+                    alt="Chocolate Chip Cookies"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">🍫 Chocolate Chip Classic</h5>
+                  <div class="rating mb-2">
+                    ⭐⭐⭐⭐⭐ <span style="color: #666">(4.9)</span>
+                  </div>
+                  <p class="card-text">
+                    Cookies klasik dengan cokelat chip Belgium premium yang
+                    meleleh sempurna
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div>
+                      <span class="product-price">Rp 45.000</span>
+                      <span class="old-price">Rp 55.000</span>
+                    </div>
+                    <button class="btn btn-order">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card product-card">
+                <div class="product-image-wrapper">
+                  <span class="product-badge">New!</span>
+                  <img
+                    src="https://images.unsplash.com/photo-1590080876351-cd527b20e1c7?w=400&h=400&fit=crop"
+                    alt="Red Velvet Cookies"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">❤️ Red Velvet Delight</h5>
+                  <div class="rating mb-2">
+                    ⭐⭐⭐⭐⭐ <span style="color: #666">(4.8)</span>
+                  </div>
+                  <p class="card-text">
+                    Perpaduan sempurna red velvet dengan cream cheese frosting
+                    yang lembut
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div>
+                      <span class="product-price">Rp 50.000</span>
+                      <span class="old-price">Rp 60.000</span>
+                    </div>
+                    <button class="btn btn-order">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card product-card">
+                <div class="product-image-wrapper">
+                  <span class="product-badge">Premium</span>
+                  <img
+                    src="https://images.unsplash.com/photo-1548365328-8c6db3220e4c?w=400&h=400&fit=crop"
+                    alt="Matcha Cookies"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">🍵 Matcha Green Tea</h5>
+                  <div class="rating mb-2">
+                    ⭐⭐⭐⭐⭐ <span style="color: #666">(5.0)</span>
+                  </div>
+                  <p class="card-text">
+                    Cookies dengan matcha asli Jepang yang menyegarkan dan kaya
+                    antioksidan
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div>
+                      <span class="product-price">Rp 55.000</span>
+                      <span class="old-price">Rp 65.000</span>
+                    </div>
+                    <button class="btn btn-order">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card product-card">
+                <div class="product-image-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1599785209707-a456fc1337bb?w=400&h=400&fit=crop"
+                    alt="Double Chocolate Cookies"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">🍫 Double Chocolate Fudge</h5>
+                  <div class="rating mb-2">
+                    ⭐⭐⭐⭐⭐ <span style="color: #666">(4.9)</span>
+                  </div>
+                  <p class="card-text">
+                    Untuk pecinta cokelat sejati dengan dark chocolate dan white
+                    chocolate chips
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div>
+                      <span class="product-price">Rp 48.000</span>
+                      <span class="old-price">Rp 58.000</span>
+                    </div>
+                    <button class="btn btn-order">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card product-card">
+                <div class="product-image-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1589365278144-c9e705f843ba?w=400&h=400&fit=crop"
+                    alt="Oatmeal Cookies"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">🌾 Oatmeal Raisin</h5>
+                  <div class="rating mb-2">
+                    ⭐⭐⭐⭐⭐ <span style="color: #666">(4.7)</span>
+                  </div>
+                  <p class="card-text">
+                    Cookies sehat dengan oat organik dan kismis pilihan yang
+                    manis alami
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div>
+                      <span class="product-price">Rp 42.000</span>
+                      <span class="old-price">Rp 52.000</span>
+                    </div>
+                    <button class="btn btn-order">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card product-card">
+                <div class="product-image-wrapper">
+                  <span class="product-badge">Special</span>
+                  <img
+                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop"
+                    alt="Peanut Butter Cookies"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">🥜 Peanut Butter Crunch</h5>
+                  <div class="rating mb-2">
+                    ⭐⭐⭐⭐⭐ <span style="color: #666">(4.8)</span>
+                  </div>
+                  <p class="card-text">
+                    Cookies renyah dengan selai kacang premium dan tekstur yang
+                    sempurna
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div>
+                      <span class="product-price">Rp 47.000</span>
+                      <span class="old-price">Rp 57.000</span>
+                    </div>
+                    <button class="btn btn-order">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="gallery-section">
+        <div class="container">
+          <h2 class="section-title">Galeri Cookies Kami</h2>
+          <p class="section-subtitle">
+            Lihat koleksi lengkap cookies premium kami
+          </p>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1601000938259-9e92002320b2?w=500&h=500&fit=crop"
+                alt="Assorted Cookies"
+              />
+              <div class="gallery-overlay">
+                <h4>Mix Cookies Platter</h4>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=500&h=500&fit=crop"
+                alt="Chocolate Cookies"
+              />
+              <div class="gallery-overlay">
+                <h4>Chocolate Collection</h4>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=500&h=500&fit=crop"
+                alt="Cookie Box"
+              />
+              <div class="gallery-overlay">
+                <h4>Premium Gift Box</h4>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Cookies Jar"
+              />
+              <div class="gallery-overlay">
+                <h4>Fresh from Oven</h4>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=500&h=500&fit=crop"
+                alt="Cookies Stack"
+              />
+              <div class="gallery-overlay">
+                <h4>Cookie Tower</h4>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?w=500&h=500&fit=crop"
+                alt="Special Cookies"
+              />
+              <div class="gallery-overlay">
+                <h4>Special Edition</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" class="features">
+        <div class="container">
+          <h2 class="section-title">Mengapa Memilih Kami?</h2>
+          <p class="section-subtitle">
+            Komitmen kami untuk kualitas dan kepuasan pelanggan
+          </p>
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon">🌱</div>
+                <h4>100% Bahan Alami</h4>
+                <p>
+                  Tanpa pengawet, tanpa pewarna buatan, hanya bahan-bahan
+                  terbaik
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon">❤️</div>
+                <h4>Dibuat dengan Cinta</h4>
+                <p>
+                  Setiap cookies dipanggang dengan perhatian dan dedikasi penuh
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon">🚚</div>
+                <h4>Pengiriman Cepat</h4>
+                <p>
+                  Same day delivery untuk area Jakarta, pengiriman ke seluruh
+                  Indonesia
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon">🏆</div>
+                <h4>Award Winner</h4>
+                <p>
+                  Pemenang Best Cookie Shop 2024 dan dipercaya ribuan pelanggan
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonial">
+        <div class="container">
+          <h2 class="section-title">Apa Kata Pelanggan Kami</h2>
+          <p class="section-subtitle">
+            Kepuasan pelanggan adalah prioritas utama kami
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="testimonial-card">
+                <div class="testimonial-header">
+                  <div class="testimonial-avatar">S</div>
+                  <div class="testimonial-info">
+                    <h5>Sarah Putri</h5>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  "Cookies terenak yang pernah saya coba! Teksturnya sempurna,
+                  tidak terlalu keras dan tidak terlalu lembek. Chocolate
+                  chip-nya melimpah dan berkualitas. Packaging juga sangat
+                  cantik, cocok untuk hadiah!"
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="testimonial-card">
+                <div class="testimonial-header">
+                  <div class="testimonial-avatar">R</div>
+                  <div class="testimonial-info">
+                    <h5>Rudi Hartono</h5>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  "Sudah langganan 6 bulan! Kualitasnya konsisten, pengiriman
+                  selalu tepat waktu. Red Velvet-nya adalah favorit keluarga.
+                  Highly recommended untuk yang cari cookies premium!"
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="testimonial-card">
+                <div class="testimonial-header">
+                  <div class="testimonial-avatar">M</div>
+                  <div class="testimonial-info">
+                    <h5>Maya Sari</h5>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  "Matcha cookies-nya authentic banget! Sebagai pecinta matcha,
+                  ini adalah yang terbaik. Tidak terlalu manis dan rasa
+                  matchanya kuat. Perfect untuk afternoon tea!"
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="testimonial-card">
+                <div class="testimonial-header">
+                  <div class="testimonial-avatar">A</div>
+                  <div class="testimonial-info">
+                    <h5>Andi Wijaya</h5>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  "Pelayanan customer service sangat ramah dan responsif.
+                  Cookies sampai fresh dan kemasan premium. Worth every penny!
+                  Akan terus order untuk acara kantor."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="newsletter">
+        <div class="container">
+          <h2>Dapatkan Promo Spesial! 🎁</h2>
+          <p>
+            Subscribe newsletter kami dan dapatkan diskon 20% untuk pembelian
+            pertama
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Masukkan email Anda..." required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <h5>🍪 Sweet Cookies</h5>
+              <p>
+                Menghadirkan cookies premium berkualitas tinggi dengan cinta dan
+                dedikasi untuk kebahagiaan Anda dan keluarga.
+              </p>
+              <div class="social-icons">
+                <a href="#">📘</a>
+                <a href="#">📷</a>
+                <a href="#">🐦</a>
+                <a href="#">💬</a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+              <h5>Menu</h5>
+              <a href="#home">Beranda</a>
+              <a href="#products">Produk</a>
+              <a href="#gallery">Galeri</a>
+              <a href="#features">Keunggulan</a>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h5>Kontak</h5>
+              <a href="#">📍 Jl. Manis No. 123, Jakarta</a>
+              <a href="#">📞 +62 812-3456-7890</a>
+              <a href="#">✉️ info@sweetcookies.com</a>
+            </div>
+            <div class="col-lg-3 mb-4">
+              <h5>Jam Operasional</h5>
+              <p>
+                Senin - Jumat: 08:00 - 20:00<br />
+                Sabtu: 09:00 - 18:00<br />
+                Minggu: 10:00 - 16:00
+              </p>
+            </div>
+          </div>
+          <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 2rem 0" />
+          <div class="text-center">
+            <p>
+              &copy; 2024 Sweet Cookies. All Rights Reserved. Made with ❤️ for
+              Cookie Lovers
+            </p>
+          </div>
+        </div>
+      </footer>
+      <div class="scroll-top" id="scrollTop">↑</div>
+    </body>
+  </head>
+</html>
